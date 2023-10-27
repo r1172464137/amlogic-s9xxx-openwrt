@@ -69,12 +69,12 @@ host_release="$(cat /etc/os-release | grep '^VERSION_CODENAME=.*' | cut -d'=' -f
 op_release="etc/flippy-openwrt-release"
 
 # Dependency files download repository
-depends_repo="https://github.com/ophub/amlogic-s9xxx-armbian/tree/main/build-armbian"
+depends_repo="https://github.com/r1172464137/amlogic-s9xxx-armbian/tree/main/build-armbian"
 # Convert depends repository address to svn format
 depends_repo="${depends_repo//tree\/main/trunk}"
 
 # U-BOOT files download repository
-uboot_repo="https://github.com/ophub/u-boot/tree/main/u-boot"
+uboot_repo="https://github.com/r1172464137/u-boot/tree/main/u-boot"
 # Convert firmware repository address to svn format
 uboot_repo="${uboot_repo//tree\/main/trunk}"
 
